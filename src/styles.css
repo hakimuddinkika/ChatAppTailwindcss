@@ -1,3 +1,11 @@
 @tailwind base;
+
+.chat-box-left{
+    @apply bg-fuchsia-100 p-2 max-w-32 text-fuchsia-700 text-xxs rounded-sm rounded-bl-none
+}
+
+.chat-box-right{
+    @apply bg-white p-2 max-w-32 text-gray-700 text-xxs rounded-sm rounded-br-none self-end shadow-md
+}
 @tailwind components;
 @tailwind utilities;
